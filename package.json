@@ -1,0 +1,37 @@
+{
+  "name": "sarahaapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=development node --watch-path=./src ./src/main.js",
+    "start:prod": "cross-env NODE_ENV=production node --watch ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.3.0",
+    "file-type": "^22.2.0",
+    "google-auth-library": "^11.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.10.2",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.1.0",
+    "redis": "^6.3.0",
+    "zod": "^4.6.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omarhany448/Assignment_8-SarahaEcho-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/omarhany448/Assignment_8-SarahaEcho-/issues"
+  },
+  "homepage": "https://github.com/omarhany448/Assignment_8-SarahaEcho-#readme"
+}
